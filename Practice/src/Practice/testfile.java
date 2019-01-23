@@ -1,4 +1,4 @@
-package practice08;
+package Practice;
 
 public class testfile{
 	public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class testfile{
 		String hifives = whassup2("john");
 		System.out.println(hifives);
 		whassup("John","Yoko");
+
+		Practice14.printStar(5);
 
 }
 	public static void whassup(String name) {
