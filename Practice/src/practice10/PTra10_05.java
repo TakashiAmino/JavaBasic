@@ -57,7 +57,6 @@ public class PTra10_05 {
 			}
 			over += accel;
 			n++;
-			System.out.println(over);
 			if (over >= distance) {
 				System.out.println("目的地まで" + n + "時間かかりました。残りのガソリンは" + car.gasoline + "リットルです");
 				break;
