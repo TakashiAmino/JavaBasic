@@ -23,12 +23,13 @@ public class PTra11_02 {
 		for(int i = 0;i<results.length;i++) {
 
 			if( results[i].title.contains(line)) {
-
+				System.out.println("-------------------------------------------------");
 				System.out.println(results[i].dispBookInfo());
 				//オブジェクト指向設計実践ガイド
 			}
-		}
 
+		}
+		System.out.println("-------------------------------------------------");
 
 
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
