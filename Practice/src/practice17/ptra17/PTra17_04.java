@@ -15,6 +15,11 @@ public class PTra17_04 {
 		 * ★ strに入っている文字列を1文字ずつゆっくり表示させるプログラムを完成させてください
 		 * ※ Thread.sleep を使用すること
 		 */
+		  try {
+	            Thread.sleep(5000);
+	        } catch(InterruptedException e){
+	            e.printStackTrace();
+	        }
 
 	}
 }
